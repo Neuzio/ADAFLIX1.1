@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(143, 18, 18);
+    background-image: linear-gradient(rgb(10, 65, 117) , rgb(8, 0, 5));
+    background-size: 1500px auto;
+}
+
+
+.form{
+    width: 100%;
+}
+
+.form-config{
+    width: 40%;
+    height: auto;
+    background-color: rgba(238, 241, 241, 0.884);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 9px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+.form-config a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.form-config form input[type="password"] , input[type="Email"]{
+    width: 70%;
+    height: 55px;
+    border: 3px solid rgba(187, 187, 190, 0.945);
+    border-radius: 9px;
+    background-color: aliceblue;
+}
+.form-config form input[type="submit"]{
+    width: 40%;
+    height: 45px;
+}
+
+.form-config label{
+    font-weight: bold;
+    color: rgb(11, 78, 31);
+    margin-bottom: 7px;
+}
+
+.efeito:hover{
+    transition: 0.5s;
+    transform: scale(1.2 , 1.2);
+}
+.efeitoCont{
+    transition-duration: 0.5s;
+}
+.footer-1{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(25, 25, 46);
+    text-align: center;
+    padding: 25px;
+
+}
+
+.footer-1 h5 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+    .form-config{
+        width: 97%;
+    }
+}
+.categoria a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.categoria h1{
+    color: aqua;
+}
+.categoria h2{
+    color: rgb(255, 255, 255);
+}
+.card{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(10, 3, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+}
+.container h4{
+    color: azure;
+    text-align: center;
+    font-size: 19px;
+    text-decoration: none;
+}
+.container h5{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.categoria h5{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container h1{
+    color: azure;
+}
+.container h3{
+    color: rgb(172, 236, 236);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container h6{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 28px;
+}
+.container h2{
+    color: rgb(229, 155, 217);
+    text-align: center;
+}
+
+#dov{
+    display: flex;
+    justify-content: center;
+}
+#dov-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+

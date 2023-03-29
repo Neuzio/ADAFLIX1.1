@@ -1,0 +1,26 @@
+<%- include('partials/heade.ejs') %>
+<body>
+    <div class="principal">
+        <div class="container">
+              <br>
+              <div class="title text-center">
+              <h1>ADAFLIX</h1>
+              </div>
+              <div class="form">
+             <div class="form-config">
+            <form action="/cadastro-user" method="post">
+            <label for="">Digite seu Email</label>
+            <div><input type="email" class="btn btn-ligth" name="email" id="" placeholder required="Digite seu email"></div><br>
+            <label for="">Digite sua senha</label>
+            <div><input type="password" class="btn btn-ligth" name="senha" id="" placeholder required="Digite sua senha"></div><br>
+            <label for="">confirme sua senha</label>
+            <div><input type="password" class="btn btn-ligth" name="senha_2" id="" placeholder required="confirme sua senha"></div><br>
+            <div><input type="submit" class="btn btn-success" name="" id="" value="Cadastrar"></div><br>
+            </form>
+             </div>
+             </div>
+        </div> 
+   </div> 
+</body>
+
+<%- include('partials/footer.ejs') %>
